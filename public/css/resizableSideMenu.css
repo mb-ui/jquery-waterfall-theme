@@ -1,0 +1,220 @@
+﻿.sideMenu-tabList {
+    position        : absolute;
+    top             : 1px;
+    bottom          : 2px;
+    background-image: none;
+    border-radius   : 6px;
+}
+
+.sideMenu-panelList>.sideMenu-panel {
+    display: none;
+}
+
+.sideMenu-tabList.rtl {
+    right: 2px;
+    left : auto;
+
+}
+
+.sideMenu-open>.sideMenu-tabList.rtl {
+    border-bottom-left-radius: 1px;
+    border-top-left-radius   : 1px;
+    border-left              : 0px;
+}
+
+.sideMenu-tabList.ltr {
+    left : 2px;
+    right: auto;
+}
+
+.sideMenu-open>.sideMenu-tabList.ltr {
+    border-bottom-right-radius: 1px;
+    border-top-right-radius   : 1px;
+    border-right              : 0px;
+}
+
+.sideMenu-tabList.rtl>.sideMenu-tab:first-child,
+.sideMenu-tabList.ltr>.sideMenu-tab:first-child {
+    border-top-right-radius: 5px;
+    border-top-left-radius : 5px;
+    border-top             : 0px;
+}
+
+.sideMenu-open>.sideMenu-tabList.rtl>.sideMenu-tab:first-child {
+    border-top-left-radius: 1px;
+}
+
+.sideMenu-open>.sideMenu-tabList.ltr>.sideMenu-tab:first-child {
+    border-top-right-radius: 1px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+.sideMenu-resizer.ltr {
+    border-top-right-radius   : 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow                : 2px 0px 4px lightgrey;
+}
+
+.sideMenu-tabList>.sideMenu-tab {
+    list-style: none;
+}
+
+.sideMenu-resizer.rtl {
+    border-top-left-radius      : 6px;
+    border-bottom-left-radius   : 6px;
+    /* box-shadow               : -2px 0px 4px lightgrey; */
+}
+
+.sideMenu-resizer {
+    position        : absolute;
+    top             : 1px;
+    bottom          : 2px;
+    width           : 4px;
+    cursor          : ew-resize !important;
+    background-image: none;
+}
+
+.sideMenu-resizer:hover {
+    cursor: ew-resize !important;
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+.sideMenu-resizerContainer {
+    position: absolute;
+    top     : 0px;
+    bottom  : 0px;
+    z-index : -1;
+}
+
+.sideMenu-resizerContainer.ltr {
+    right: 0px !important;
+}
+
+.sideMenu-resizerContainer.rtl {
+    left: 0px !important;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+.sideMenu-panel {
+    position  : absolute;
+    top       : 3px;
+    right     : 3px;
+    left      : 3px;
+    bottom    : 3px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+.sideMenu-panelList.ltr {
+    direction: ltr;
+}
+
+.sideMenu-panelList>.sideMenu-panel.sideMenu-selected {
+    display: block;
+}
+
+.sideMenu-panelList.rtl {
+    direction: rtl;
+}
+
+.sideMenu-panelList {
+    position        : absolute;
+    top             : 1px;
+    bottom          : 2px;
+    background-image: none;
+    overflow        : hidden;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+#horizentalMenuContainer {
+    top             : 1px;
+    bottom          : 2px;
+    position        : absolute;
+    background-image: none;
+}
+
+#horizentalMenuContainer.rtl {
+    left : 0px;
+    right: auto;
+}
+
+#horizentalMenuContainer.ltr {
+    left : auto;
+    right: 0px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+
+.sideMenu-tab {
+    cursor    : pointer;
+    text-align: center;
+    padding   : 5px;
+}
+
+#sideMenu-tabList>div {
+    padding-top : 8px;
+    text-align  : center;
+    height      : 38px;
+    border-top  : none !important;
+    border-left : none !important;
+    border-right: none !important;
+}
+
+#horizentalMenuContainerInner {
+    position: absolute;
+    left    : 3px;
+    top     : 0px;
+    right   : 3px;
+    bottom  : 0px;
+}
+
+.sideMenuContent {
+    padding: 5px 5px 15px 5px;
+}
+
+.sideMenuContentTitle {
+    padding: 2px 5px 2px 5px;
+}
+
+.verticalPanel {
+    direction: rtl;
+    padding  : 3px;
+}
+
+.hiddensideMenu-panelList>#sideMenu-tabList,
+.hiddensideMenu-panelList>#sideMenu-tabList>div:first-child {
+    border-top-left-radius: 6px;
+}
+
+.hiddensideMenu-panelList>#sideMenu-tabList {
+    border-bottom-left-radius: 6px;
+}
+
+#container.hiddensideMenu-panelList>#horizentalMenuContainer {
+    right: 40px !important;
+}
+
+#container.hiddensideMenu-panelList>#sideMenu-panelList,
+#container.hiddensideMenu-panelList>#sideMenu-resizer {
+    display: none;
+
+}
+
+#horizentalMenuContainer.loading,
+.sideMenu-panelList.loading {
+    cursor          : wait;
+    filter          : blur(4px);
+    background-image: none;
+}
+
+#sideMenuTreeSearchInput {
+    outline: none !important;
+}

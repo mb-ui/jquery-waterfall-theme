@@ -1,0 +1,54 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+.responsiveForm [class*="col"],
+.responsiveForm [class*="col"]>* {
+    text-align: center;
+
+}
+
+.responsiveForm .footer:before {
+    content   : '';
+    position  : absolute;
+    top       : 0px;
+    left      : 5%;
+    right     : 5%;
+    height    : 1px;
+    background: lightgray;
+}
+
+.responsiveForm [class*="col"] {
+    float : right;
+    margin: 5px;
+    height: 50px;
+}
+
+.responsiveForm .col200 {
+    width: 200px;
+}
+
+form.responsiveForm {
+    overflow: visible;
+}
+
+.responsiveForm .col200>input,
+.responsiveForm .col200>select {
+    width: 180px;
+}
+
+.responsiveForm .col100 {
+    width: 100px;
+}
+
+.responsiveForm .footer {
+    width      : 100%;
+    text-align : right;
+    position   : relative;
+    display    : inline-block;
+    padding-top: 5px;
+}
+
+.responsiveForm .footer [class*="col"] {
+    height: auto;
+}

@@ -1,0 +1,51 @@
+﻿/* #sideMenuTree.multiSelectOverflow i.jstree-checkbox,#sideMenuTree.multiSelectOverflow i.jstree-checkbox:hover {
+    cursor   : not-allowed;
+}
+#sideMenuTree.multiSelectOverflow a.jstree-clicked>i.jstree-checkbox {
+    pointer-events: all;
+    cursor        : pointer;
+    display       : inline-block;
+} */
+.customTreeview.multiSelectOverflow a.custom_a_attr>i.jstree-checkbox {
+    cursor: not-allowed;
+}
+
+.customTreeview.multiSelectOverflow a.custom_a_attr.jstree-checked>i.jstree-checkbox {
+    cursor: pointer;
+}
+
+.customTreeview {
+    outline: none;
+}
+
+.customTreeview .dialog,
+.customTreeview .folder {
+    pointer-events: none;
+}
+
+.customTreeview .folder>i.jstree-checkbox,
+.customTreeview .dialog>i.jstree-checkbox {
+    display: none;
+}
+
+.jstree-icon.ui-icon {
+    width     : 16px !important;
+    height    : 16px !important;
+    margin-top: 3px;
+}
+
+.ui-icon.ui-icon-folder-open.jstree-themeicon-custom {
+    background-position: -16px -96px !important;
+}
+
+.ui-icon.ui-icon-extlink.jstree-themeicon-custom {
+    background-position: -32px -80px !important;
+}
+
+.ui-icon.ui-icon-newwin.jstree-themeicon-custom {
+    background-position: -48px -80px !important;
+}
+
+body {
+    text-shadow: none;
+}

@@ -1,0 +1,58 @@
+﻿.topPanelSearchBox {
+    margin-bottom: 2px;
+}
+
+.topPanelSearchBox.expand>* {
+    display: none !important;
+}
+
+.topPanelSearchBox.expand>div:first-child {
+    display: inline-block !important;
+}
+
+.topPanelSearchBox .title {
+    float: right;
+}
+
+.topPanelSearchBox .cutomButton {
+    margin: 5px;
+}
+
+.topPanelSearchBox .searchBody,
+.topPanelSearchBox {
+    position: relative;
+}
+
+.topPanelSearchBox .ui-icon-circle-triangle-n,
+.topPanelSearchBox .ui-icon-circle-triangle-s {
+    float     : left;
+    margin-top: 2px;
+}
+
+.topPanelSearchBox>div.ui-state-default {
+    display: inline-block;
+    width  : 100%;
+    padding: 2px 8px 2px 5px;
+}
+
+.topPanelSearchBox .searchBody .label {
+    text-align: right;
+}
+
+[class*="col-"]>label:after {
+    content: ' : ';
+}
+
+.topPanelSearchBox .searchBody label {
+    white-space: nowrap;
+}
+
+.topPanelSearchBox .searchBody input.ui-widget.ui-widget-content {
+    width: 100%;
+}
+
+.topPanelSearchBox .searchBody {
+    /* padding      : 5px;
+    margin-bottom: 5px; */
+    display: inline-block;
+}

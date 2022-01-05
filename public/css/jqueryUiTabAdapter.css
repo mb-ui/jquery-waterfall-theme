@@ -1,0 +1,49 @@
+﻿.ui-tabs .ui-tabs-nav li {
+    float: right;
+}
+
+.tabAdapter-displayNone {
+    display: none !important;
+}
+
+.ui-tabs-tab>.ui-icon-close {
+    position: absolute;
+    left    : 1px;
+    top     : 3px;
+}
+
+.ui-tabs-panel {
+    text-align: right;
+    direction : rtl;
+    padding   : 2px !IMPORTANT;
+}
+
+#horizentalTabs>ul>li,
+#horizentalTabs>ul>li>a {
+    outline: none !important;
+}
+
+#horizentalTabs>ul>li>a:hover {
+    cursor: pointer;
+}
+
+#horizentalTabs {
+    height  : 100%;
+    position: relative;
+    padding : 2px;
+    overflow: auto;
+}
+
+#horizentalTabs>.ui-tabs-panel {
+    position  : absolute;
+    top       : 31px;
+    bottom    : 0px;
+    right     : 0px;
+    left      : 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#horizentalTabs>ul>li>a {
+    padding: 2px 12px 2px 12px;
+}

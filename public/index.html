@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>modular-jquery-example</title>
+    <script src="external/systemJS/es6Detection.js"></script>
+    <script src="external/systemJS/es6Pollifyls.js"></script>
+    <link href="external/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" />
+    <link
+      href="external/jstree-master/dist/themes/default/style.min.css"
+      rel="stylesheet"
+    />
+    <link
+      id="multi-theme"
+      href="external/jquery-ui-1.12.1/themes/cupertino/jquery-ui.min.css"
+      rel="stylesheet"
+      id="1ACC78AA-7D66-4877-B797-2298E5E88295"
+    />
+    <link href="external/jqGrid/ui.jqgrid.min.css" rel="stylesheet" />
+    <link href="css/jqGridAdapter.css" rel="stylesheet" />
+    <link
+      href="external/jqueryCalendar/css/jquery.calendars.picker.css"
+      rel="stylesheet"
+    />
+    <link
+      href="external/jqueryCalendar/css/ui.calendars.picker.css"
+      rel="stylesheet"
+    />
+    <link
+      href="external/jqueryCalendar/css/ui-cupertino.calendars.picker.css"
+      rel="stylesheet"
+    />
+    <link href="css/jqueryCalendarAdapter.css" rel="stylesheet" />
+    <link
+      href="external/multipleSelect/multiple-select.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="external/jQuery-Validation-Engine-master/css/style.css"
+      rel="stylesheet"
+    />
+    <link
+      href="external/jQuery-Validation-Engine-master/css/validationEngine.jquery.css"
+      rel="stylesheet"
+    />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+    <!-- <link href="css/persian-font.css" rel="stylesheet" /> -->
+    <link href="css/resizableSideMenu.css" rel="stylesheet" />
+    <link href="css/treeJs_custom.css" rel="stylesheet" />
+    <link href="css/topPanelSearchBox.css" rel="stylesheet" />
+    <link href="css/jqueryUiTabAdapter.css" rel="stylesheet" />
+    <link href="css/jqueryUiDialogAdapter.css" rel="stylesheet" />
+    <link href="css/multipleSelectAdapter.css" rel="stylesheet" />
+  </head>
+
+  <body class="">
+    <div id="container" class="">
+      <div id="banner"><h2>Banner is placed here</h2></div>
+      <div id="toolbar" class="ui-state-active">
+        <div id='toolbar-right-side'>
+            <div class='toolbar-button ui-corner-all'>
+                logout
+                <span class='ui-icon ui-icon-power'></span>
+            </div>
+            <div class='toolbar-splitor'></div>
+            <div id='maximize' class='toolbar-button ui-corner-all'>
+                toggle view hieght
+                <span class='ui-icon  ui-icon-arrow-2-n-s'></span>
+            </div>
+        </div>
+        <div id='toolbar-left-side'>
+            <div class="toolbar-item">
+                <div><span class="ui-icon ui-icon-caret-1-s"></span>exbi</div>
+                <ul class="ui-widget ui-widget-content">
+                  <option value="camera" class="ui-corner-all">camera</option>
+                  <option value="frequency" class="ui-corner-all">frequency</option>
+                  <option value="log" class="ui-corner-all">log</option>
+                </ul>
+              </div>
+              <div class="toolbar-item">
+                <div><span class="ui-icon ui-icon-caret-1-s"></span>monitor</div>
+                <ul class="ui-widget ui-widget-content">
+                  <option value="connection" class="ui-corner-all">connection</option>
+                  <option value="orc" class="ui-corner-all">ORC</option>
+                  <option value="transmission" class="ui-corner-all">
+                    transmission
+                  </option>
+                  <option value="hardware" class="ui-corner-all">hardware</option>
+                  <option value="controller" class="ui-corner-all">controller</option>
+                  <option value="statistics" class="ui-corner-all">statistics</option>
+                  <option value="issues" class="ui-corner-all">issues</option>
+                </ul>
+              </div>
+              <div class="toolbar-item">
+                <div><span class="ui-icon ui-icon-caret-1-s"></span>system</div>
+                <ul class="ui-widget ui-widget-content">
+                  <option value="setting" class="ui-corner-all">setting</option>
+                  <option value="time" class="ui-corner-all">time</option>
+                  <option value="io" class="ui-corner-all">I/O</option>
+                  <option value="network" class="ui-corner-all">network</option>
+                  <option value="board" class="ui-corner-all">board</option>
+                  <option value="maintenance" class="ui-corner-all">
+                    maintenance
+                  </option>
+                  <option value="acount" class="ui-corner-all">account</option>
+                  <option value="disk" class="ui-corner-all">disk</option>
+                </ul>
+              </div>
+              <div class="toolbar-item">
+                <div><span class="ui-icon ui-icon-caret-1-s"></span>palte reader</div>
+                <ul class="ui-widget ui-widget-content">
+                  <option value="system" class="ui-corner-all">system</option>
+                  <option value="lastView" class="ui-corner-all">last view</option>
+                  <option value="orcArea" class="ui-corner-all">ORC area</option>
+                  <option value="speed" class="ui-corner-all">speed</option>
+                  <option value="traficLight" class="ui-corner-all">
+                    trafic light
+                  </option>
+                  <option value="calibration" class="ui-corner-all">
+                    calibration
+                  </option>
+                  <option value="sender" class="ui-corner-all">sender</option>
+                  <option value="lastResult" class="ui-corner-all">
+                    last result
+                  </option>
+                  <option value="osd" class="ui-corner-all">OSD</option>
+                </ul>
+              </div>
+        </div>
+      </div>
+      <div id="sideMenuContainer">
+        <div
+          id="horizentalMenuContainerInner"
+          class="ui-widget ui-widget-content ui-corner-all"
+        >
+          <div id="horizentalTabs"></div>
+        </div>
+      </div>
+    </div>
+    <script src="external/jquery/jquery-3.5.1.min.js"></script>
+    <script src="external/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <!-- <script src="external/jqGrid/grid.locale-fa.js"></script> -->
+    <script src="external/jqGrid/jquery.jqgrid.src.js"></script>
+    <script src="external/multipleSelect/multiple-select.min.js"></script>
+    <script src="external/jqueryCalendar/js/jquery.plugin.js"></script>
+    <script src="external/jqueryCalendar/js/jquery.calendars.all.min.js"></script>
+    <script src="external/jqueryCalendar/js/jquery.calendars.picker.ext.min.js"></script>
+    <!-- <script src="external/jqueryCalendar/js/jquery.calendars.persian.js"></script>
+    <script src="external/jqueryCalendar/js/jquery.calendars.persian-fa.js"></script> -->
+    <!-- <script src="external/jQuery-Validation-Engine-master/js/languages/jquery.validationEngine-fa.js"></script> -->
+    <script src="external/jQuery-Validation-Engine-master/js/languages/jquery.validationEngine-en.js"></script>
+    <script src="external/jQuery-Validation-Engine-master/js/jquery.validationEngine.min.js"></script>
+    <script src="external/jstree-master/dist/jstree.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jqueryExtension.js"></script>
+    <script src="js/sideMenu.js"></script>
+    <script src="js/adapters/tabAdapter.js"></script>
+    <script src="js/adapters/gridAdapter.js"></script>
+    <!-- <script src="js/adapters/multipleSelectAdapter/lang/fa.js"></script> -->
+    <script src="js/adapters/multipleSelectAdapter/index.js"></script>
+    <script src="js/adapters/calendarAdapter/index.js"></script>
+    <!-- <script src="js/adapters/calendarAdapter/lang/fa.js"></script> -->
+    <script src="js/adapters/dialogAdapter.js"></script>
+    <script src="js/adapters/validationAdapter.js"></script>
+    <script>
+      (function () {
+          $('#maximize').click(function(e){
+              $('body').toggleClass('maximized-view');
+          });
+          $('#toolbar .toolbar-button').hover(function(e){
+              $(this).toggleClass('ui-state-highlight');
+          });
+        $("#toolbar option")
+          .hover(function (e) {
+            $(this).toggleClass("ui-state-hover");
+          })
+          .click(function (e) {
+            const value = e.target.value,
+              name = e.target.textContent, tabPrefix = 'tab_', panelPrefix = 'panel_';
+              let path='defaultPage/index.js';
+              if(value==='lastView'){
+                  path="sampleDataGrid/index.js";
+              }
+            const tabObj = {
+              tabID: tabPrefix + value,
+              panelID: panelPrefix + value,
+              text:name,
+              extarOptions: { jsModulePath:path},
+            };
+            const $tabListRootElement=$("#horizentalTabs");
+            $tabListRootElement.tabAdapter("openTab", tabObj).tabAdapter("selectTab", tabObj.tabID);
+          });
+        $("#horizentalTabs").tabAdapter({
+          dir: "rtl", //optional
+        }).on('beforefirstactivate.tabAdapter', function (e, ui) {
+            var tabObj = $(this).tabAdapter('getTabObj', ui.newTab), $panelEl = ui.newPanel.append('<p>loading...</p>');
+            $$.importModule(tabObj.extarOptions.jsModulePath).then(function (result) {
+                $panelEl.empty();
+                return result.default({
+                    treeNodeObj: tabObj,
+                    panelElement: $panelEl,
+                    containerID: tabObj.tabID + '_'
+                });
+            });
+        }).tabAdapter("openTab", {
+              tabID: 'home',
+              panelID: 'homePanel',
+              text:'welcoming',
+              closable:false,
+              icon:'ui-icon ui-icon-pencil',
+              extarOptions: { jsModulePath:'welcomingTab/index.js'},
+            }).tabAdapter("selectTab", 'home');
+      })();
+    </script>
+  </body>
+</html>

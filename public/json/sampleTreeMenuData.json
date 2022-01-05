@@ -1,0 +1,273 @@
+﻿{
+  "data": [
+    {
+      "text": "Menu",
+      "tooltip": "Menu",
+      "id": "rootID",
+      "type": "folder",
+      "jsModulePath": "",
+      "parent": "#"
+    },
+    {
+      "text": "welcoming tab",
+      "tooltip": "welcoming tab",
+      "type": "tab",
+      "jsModulePath": "welcomingTab/index.js",
+      "id": "6",
+      "parent": "rootID"
+    },
+    {
+      "text": "plate reader",
+      "tooltip": "plate reader",
+      "id": "plateReader",
+      "type": "folder",
+      "jsModulePath": "",
+      "parent": "rootID"
+    },
+    {
+      "text": "system",
+      "tooltip": "system",
+      "id": "system",
+      "type": "folder",
+      "jsModulePath": "",
+      "parent": "rootID"
+    },
+    {
+      "text": "monitor",
+      "tooltip": "monitor",
+      "id": "monitor",
+      "type": "folder",
+      "jsModulePath": "",
+      "parent": "rootID"
+    },
+    {
+      "text": "exbi",
+      "tooltip": "exbi",
+      "id": "exbi",
+      "type": "folder",
+      "jsModulePath": "",
+      "parent": "rootID"
+    },
+    {
+      "text": "setting",
+      "tooltip": "setting",
+      "type": "dialog",
+      "jsModulePath": "sampleDataGrid/actions/createButton.js",
+      "id": "plateReader-setting",
+      "parent": "plateReader"
+    },
+    {
+      "text": "last view",
+      "tooltip": "last view",
+      "type": "tab",
+      "jsModulePath": "sampleDataGrid/index.js",
+      "id": "lastView",
+      "parent": "plateReader"
+    },
+    {
+      "text": "ORC area",
+      "tooltip": "ORC area",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "orcArea",
+      "parent": "plateReader"
+    },
+    {
+      "text": "speed",
+      "tooltip": "speed",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "speed",
+      "parent": "plateReader"
+    }
+    ,
+    {
+      "text": "trafic light",
+      "tooltip": "trafic light",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "traficLight",
+      "parent": "plateReader"
+    }
+    ,
+    {
+      "text": "calibration",
+      "tooltip": "calibration",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "calibration",
+      "parent": "plateReader"
+    }
+    ,
+    {
+      "text": "sender",
+      "tooltip": "sender",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "sender",
+      "parent": "plateReader"
+    }
+    ,
+    {
+      "text": "last result",
+      "tooltip": "last result",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "lastResult",
+      "parent": "plateReader"
+    }
+    ,
+    {
+      "text": "OSD",
+      "tooltip": "OSD",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "OSD",
+      "parent": "plateReader"
+    },
+    {
+      "text": "setting",
+      "tooltip": "setting",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "systemSetting",
+      "parent": "system"
+    },
+    {
+      "text": "time",
+      "tooltip": "time",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "time",
+      "parent": "system"
+    },
+    {
+      "text": "I/O",
+      "tooltip": "I/O",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "io",
+      "parent": "system"
+    },
+    {
+      "text": "network",
+      "tooltip": "network",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "network",
+      "parent": "system"
+    },
+    {
+      "text": "board",
+      "tooltip": "board",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "board",
+      "parent": "system"
+    },
+    {
+      "text": "maintenace",
+      "tooltip": "maintenace",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "maintenace",
+      "parent": "system"
+    },
+    {
+      "text": "account",
+      "tooltip": "account",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "account",
+      "parent": "system"
+    },
+    {
+      "text": "disk",
+      "tooltip": "disk",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "disk",
+      "parent": "system"
+    },
+    {
+      "text": "connection",
+      "tooltip": "connection",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "connection",
+      "parent": "monitor"
+    },
+    {
+      "text": "OCR",
+      "tooltip": "OCR",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "OCR",
+      "parent": "monitor"
+    },
+    {
+      "text": "transmission",
+      "tooltip": "transmission",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "transmission",
+      "parent": "monitor"
+    },
+    {
+      "text": "hardware",
+      "tooltip": "hardware",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "hardware",
+      "parent": "monitor"
+    },
+    {
+      "text": "controller",
+      "tooltip": "controller",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "controller",
+      "parent": "monitor"
+    },
+    {
+      "text": "statistics",
+      "tooltip": "statistics",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "statistics",
+      "parent": "monitor"
+    },
+    {
+      "text": "issues",
+      "tooltip": "issues",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "issues",
+      "parent": "monitor"
+    },
+    {
+      "text": "camera",
+      "tooltip": "camera",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "camera",
+      "parent": "exbi"
+    },
+    {
+      "text": "frequency",
+      "tooltip": "frequency",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "frequency",
+      "parent": "exbi"
+    },
+    {
+      "text": "log",
+      "tooltip": "log",
+      "type": "tab",
+      "jsModulePath": "defaultPage/index.js",
+      "id": "log",
+      "parent": "exbi"
+    }
+  ]
+}

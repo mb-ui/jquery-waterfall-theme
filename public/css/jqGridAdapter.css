@@ -1,0 +1,31 @@
+﻿.ui-paging-info {
+    text-align: right !important;
+    direction : ltr !important;
+}
+
+.ui-paging-info>span {
+    margin: 3px
+}
+
+.gridTopToolbarBtn {
+    padding: 2px 10px 2px 10px;
+    height : 24px;
+    margin : 2px 2px 2px 0px;
+    cursor : pointer;
+    outline: none !important;
+}
+
+.ui-jqgrid-view>.frozen-div.ui-jqgrid-hdiv {
+    display: none;
+}
+
+.ui-jqgrid-view>.ui-userdata {
+    height: 30px !important;
+}
+
+.ui-search-menu {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height    : 200px;
+    box-shadow: 0px 2px 5px #636060;
+}
